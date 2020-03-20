@@ -4,11 +4,11 @@ A simple program to emulate a toaster. This project is for practicing TDD and OO
 
 ## User Stories
 
-> As a cook,  
+> As a chef,  
 > so I can toast some bread,  
 > I want to be able insert bread into the toaster.
 
-> As a cook,  
+> As a chef,  
 > so I can vary the toastiness of the toast,  
 > I want to be able to choose the number of minutes to toast for.
 
@@ -16,6 +16,6 @@ A simple program to emulate a toaster. This project is for practicing TDD and OO
 
 | Objects | Messages                |
 |:-------:|-------------------------|
-| Cook    |                         |
+| Chef    |                         |
 | Toaster | toast (can set minutes) |
 | Bread   |                         |
