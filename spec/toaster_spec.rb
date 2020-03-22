@@ -16,5 +16,8 @@ describe Toaster do
   it '#toast returns the same bread that was passed in' do
     expect(subject.toast(hovis)).to eq hovis
   end
-
+  it "#toast at 1 minute returns bread that is 'toasted'" do
+    subject.toast(hovis, 1)
+    expect(hovis.toastiness).to eq 'toasted'
+  end
 end
