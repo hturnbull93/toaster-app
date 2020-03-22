@@ -13,5 +13,4 @@ describe Toaster do
     expect(subject.toast(Bread.new)).to be_instance_of(Bread)
   end
 
-
 end
