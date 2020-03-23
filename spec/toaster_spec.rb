@@ -20,4 +20,8 @@ describe Toaster do
     subject.toast(hovis, 1)
     expect(hovis.toastiness).to eq 'toasted'
   end
+  it "#toast at 2 minutes returns bread that is 'burned'" do
+    subject.toast(hovis, 2)
+    expect(hovis.toastiness).to eq 'burned'
+  end
 end
