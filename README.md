@@ -1,6 +1,6 @@
 # Toaster App
 
-A simple program to emulate a toaster. This project is for practicing TDD and OOP principles.
+A simple program to emulate a toaster. This project is for demonstrating basic TDD and OOP principles, for [this medium blog](https://medium.com/@hturnbull93/t-e-oa-st-driven-development-adeb863e6e3c).
 
 ## User Stories
 
